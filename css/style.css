@@ -1,0 +1,96 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --primery-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primery-bg-color);
+  color: var(--primary-text-color);
+}
+/*  exclude point */
+.list {
+  list-style: none;
+}
+
+/* logo color */
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+.logo {
+  color: #000000;
+}
+.logo-text {
+  color: #2196f3;
+}
+
+/* color nav heder site-nav */
+
+.site-nav .link {
+  color: var(--title-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* Connect */
+.connect-nav .mail {
+  color: #000000;
+}
+
+.connect-nav .mail :hover,
+.connect-nav .mail :focus {
+  color: #2196f3;
+}
+.connect-nav .numer {
+  color: #000000;
+}
+
+/* hero */
+.hero {
+  background: #2f303a;
+}
+
+.hero .title {
+  color: #ffffff;
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-color);
+}
+
+/* наша команда */
+
+.team .title {
+  color: var(--title-color);
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo {
+  color: white;
+}
+.mail-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail-footer a:hover,
+.mail-footer a:focus {
+  color: #2196f3;
+}
+.footer {
+  color: #ffffff;
+}
+.numer-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.baton {
+  color: #ffffff;
+  background-color: #2196f3;
+}
