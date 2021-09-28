@@ -3,6 +3,7 @@
   --title-color: #212121;
   --primery-white-color: #ffffff;
   --bg-focus-hover-blue: #2196f3;
+  --bg-color-hero-footer: #2f303a;
 }
 
 body {
@@ -81,13 +82,19 @@ h2 {
 
 /* hero */
 .hero {
-  background: #2f303a;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+}
+.hero {
+  display: inline-block;
+  background-color: var(--bg-color-hero-footer);
+}
+.baton {
+  display: inline-block;
+  padding: 20, 25;
 }
 
 .hero .title {
